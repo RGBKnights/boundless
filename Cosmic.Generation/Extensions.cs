@@ -34,4 +34,12 @@ namespace Cosmic.Generation
             return new Range(low, high);
         }
     }
+
+    public static class MathEx
+    {
+        public static double NthRoot(double input, int N)
+        {
+            return Math.Pow(input, 1.0 / N);
+        }
+    }
 }
